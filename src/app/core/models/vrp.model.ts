@@ -1,7 +1,7 @@
 export class VisualReportingPoint {
-    name: string;
-    lat: number;
-    long: number;
+    public name: string;
+    public lat: number;
+    public long: number;
 
     constructor(name: string, lat: number, long: number) {
         this.name = name;

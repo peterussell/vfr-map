@@ -1,8 +1,8 @@
 export class Aerodrome {
-    name: string;
-    icaoId: string;
-    lat: number;
-    long: number;
+    public name: string;
+    public icaoId: string;
+    public lat: number;
+    public long: number;
 
     constructor(name, icaoId, lat, long) {
         this.name = name;
